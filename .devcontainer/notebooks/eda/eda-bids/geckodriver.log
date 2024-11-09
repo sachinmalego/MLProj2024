@@ -65,3 +65,234 @@ b@https://eum.instana.io/eum.min.js:59:30
 
 1730130647429	Marionette	INFO	Stopped listening on port 52148
 Dynamically enable window occlusion 1
+1730346528378	geckodriver	INFO	Listening on 127.0.0.1:53803
+1730346531487	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53804" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Bidhan\\AppData\\Local\\Temp\\rust_mozprofileE05W4F"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1730346531833	Marionette	INFO	Marionette enabled
+1730346531990	Marionette	INFO	Listening on port 53811
+WebDriver BiDi listening on ws://127.0.0.1:53804
+Read port: 53811
+1730346532129	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://weather.com/module-service/assets/main.c06440cbd8842e3cf543.js, line 47: unreachable code after return statement
+JavaScript warning: https://weather.com/module-service/assets/main.c06440cbd8842e3cf543.js, line 47: unreachable code after return statement
+JavaScript error: https://www.wunderground.com/history/monthly/th/mueang-chiang-mai/VTBS/date/2014-1 line 1 > injectedScript, line 2: ReferenceError: ReportingObserver is not defined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ovyIVDwIz7QGgfE_NzKJhN_1XsOLGoe01x4KTGhRCeE.js line 2 > eval line 5875 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ovyIVDwIz7QGgfE_NzKJhN_1XsOLGoe01x4KTGhRCeE.js line 2 > eval line 5768 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=www.wunderground.com#{%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22wunderground.com%22,%22topUrl%22:%22www.wunderground.com%22,%22version%22:159,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.11189483918847254%22}, line 13: Script terminated by timeout at:
+r.prototype.logPixel@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=www.wunderground.com#{%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22wunderground.com%22,%22topUrl%22:%22www.wunderground.com%22,%22version%22:159,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.11189483918847254%22}:13:3418
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=www.wunderground.com#{%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22wunderground.com%22,%22topUrl%22:%22www.wunderground.com%22,%22version%22:159,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.11189483918847254%22}:13:3152
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=www.wunderground.com#{%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22wunderground.com%22,%22topUrl%22:%22www.wunderground.com%22,%22version%22:159,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.11189483918847254%22}:13:3642
+
+JavaScript warning: https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=159423&us_privacy=1---, line 1: Script terminated by timeout at:
+q@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=159423&us_privacy=1---:1:9748
+J@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=159423&us_privacy=1---:1:14129
+x@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=159423&us_privacy=1---:1:10976
+
+JavaScript warning: https://weather.com/module-service/assets/main.c06440cbd8842e3cf543.js, line 47: unreachable code after return statement
+JavaScript warning: https://weather.com/module-service/assets/main.c06440cbd8842e3cf543.js, line 47: unreachable code after return statement
+JavaScript error: https://www.wunderground.com/history/monthly/th/mueang-chiang-mai/VTBS/date/2014-2 line 1 > injectedScript, line 2: ReferenceError: ReportingObserver is not defined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ovyIVDwIz7QGgfE_NzKJhN_1XsOLGoe01x4KTGhRCeE.js line 2 > eval line 7389 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://eum.instana.io/eum.min.js, line 12: Script terminated by timeout at:
+xb@https://eum.instana.io/eum.min.js:12:175
+wa@https://eum.instana.io/eum.min.js:11:352
+I@https://eum.instana.io/eum.min.js:14:97
+aa@https://eum.instana.io/eum.min.js:41:113
+b@https://eum.instana.io/eum.min.js:28:408
+d@https://eum.instana.io/eum.min.js:29:169
+invokeTask@https://www.wunderground.com/wu-next/assets/e3b331f/polyfills-es2015.cc629d40acb32e8736d3.js:1:85955
+runTask@https://www.wunderground.com/wu-next/assets/e3b331f/polyfills-es2015.cc629d40acb32e8736d3.js:1:81364
+invokeTask@https://www.wunderground.com/wu-next/assets/e3b331f/polyfills-es2015.cc629d40acb32e8736d3.js:1:87005
+h@https://www.wunderground.com/wu-next/assets/e3b331f/polyfills-es2015.cc629d40acb32e8736d3.js:1:99288
+p@https://www.wunderground.com/wu-next/assets/e3b331f/polyfills-es2015.cc629d40acb32e8736d3.js:1:99613
+
+1730346554123	Marionette	INFO	Stopped listening on port 53811
+Dynamically enable window occlusion 1
+1730346575447	geckodriver	INFO	Listening on 127.0.0.1:55175
+1730346578507	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55176" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Bidhan\\AppData\\Local\\Temp\\rust_mozprofileJ1IIld"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1730346578828	Marionette	INFO	Marionette enabled
+1730346578962	Marionette	INFO	Listening on port 55184
+WebDriver BiDi listening on ws://127.0.0.1:55176
+Read port: 55184
+1730346579093	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://weather.com/module-service/assets/main.c06440cbd8842e3cf543.js, line 47: unreachable code after return statement
+JavaScript warning: https://weather.com/module-service/assets/main.c06440cbd8842e3cf543.js, line 47: unreachable code after return statement
+JavaScript error: https://www.wunderground.com/history/daily/th/mueang-chiang-mai/VTCC/date/2014-1 line 1 > injectedScript, line 2: ReferenceError: ReportingObserver is not defined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ovyIVDwIz7QGgfE_NzKJhN_1XsOLGoe01x4KTGhRCeE.js line 2 > eval line 6440 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ovyIVDwIz7QGgfE_NzKJhN_1XsOLGoe01x4KTGhRCeE.js line 2 > eval line 4000 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript warning: https://weather.com/module-service/assets/main.c06440cbd8842e3cf543.js, line 47: unreachable code after return statement
+JavaScript warning: https://weather.com/module-service/assets/main.c06440cbd8842e3cf543.js, line 47: unreachable code after return statement
+JavaScript error: https://www.wunderground.com/history/daily/th/mueang-chiang-mai/VTCC/date/2014-1-1 line 1 > injectedScript, line 2: ReferenceError: ReportingObserver is not defined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ovyIVDwIz7QGgfE_NzKJhN_1XsOLGoe01x4KTGhRCeE.js line 2 > eval line 7312 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ovyIVDwIz7QGgfE_NzKJhN_1XsOLGoe01x4KTGhRCeE.js line 2 > eval line 1868 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: Hw video swapchain present is slow
+ such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+1730347768850	Marionette	INFO	Stopped listening on port 55559
+Dynamically enable window occlusion 1
+console.error: "Error in worker resource://devtools/client/shared/source-map-loader/worker.js" ": "
+1730347834218	geckodriver	INFO	Listening on 127.0.0.1:56649
+1730347837315	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56650" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Bidhan\\AppData\\Local\\Temp\\rust_mozprofilei0CcI2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1730347837890	Marionette	INFO	Marionette enabled
+1730347838133	Marionette	INFO	Listening on port 56659
+WebDriver BiDi listening on ws://127.0.0.1:56650
+Read port: 56659
+1730347838410	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://weather.com/module-service/assets/main.c06440cbd8842e3cf543.js, line 47: unreachable code after return statement
+JavaScript warning: https://weather.com/module-service/assets/main.c06440cbd8842e3cf543.js, line 47: unreachable code after return statement
+JavaScript error: https://www.wunderground.com/history/daily/th/mueang-chiang-mai/VTCC/date/2017-1 line 1 > injectedScript, line 2: ReferenceError: ReportingObserver is not defined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ovyIVDwIz7QGgfE_NzKJhN_1XsOLGoe01x4KTGhRCeE.js line 2 > eval line 5584 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ovyIVDwIz7QGgfE_NzKJhN_1XsOLGoe01x4KTGhRCeE.js line 2 > eval line 4349 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1730348748264	geckodriver	INFO	Listening on 127.0.0.1:57531
+1730348751330	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57532" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Bidhan\\AppData\\Local\\Temp\\rust_mozprofileythuBN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1730348751696	Marionette	INFO	Marionette enabled
+1730348751841	Marionette	INFO	Listening on port 57539
+WebDriver BiDi listening on ws://127.0.0.1:57532
+Read port: 57539
+1730348751983	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://weather.com/module-service/assets/main.c06440cbd8842e3cf543.js, line 47: unreachable code after return statement
+JavaScript warning: https://weather.com/module-service/assets/main.c06440cbd8842e3cf543.js, line 47: unreachable code after return statement
+JavaScript error: https://www.wunderground.com/history/monthly/th/mueang-chiang-mai/VTCC/date/2017-1 line 1 > injectedScript, line 2: ReferenceError: ReportingObserver is not defined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ovyIVDwIz7QGgfE_NzKJhN_1XsOLGoe01x4KTGhRCeE.js line 2 > eval line 3591 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ovyIVDwIz7QGgfE_NzKJhN_1XsOLGoe01x4KTGhRCeE.js line 2 > eval line 3562 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=www.wunderground.com#{%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22wunderground.com%22,%22topUrl%22:%22www.wunderground.com%22,%22version%22:159,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.6246988031952038%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=www.wunderground.com#{%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22wunderground.com%22,%22topUrl%22:%22www.wunderground.com%22,%22version%22:159,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.6246988031952038%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=www.wunderground.com#{%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22wunderground.com%22,%22topUrl%22:%22www.wunderground.com%22,%22version%22:159,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.6246988031952038%22}:13:3642
+
+JavaScript warning: https://weather.com/module-service/assets/main.c06440cbd8842e3cf543.js, line 47: unreachable code after return statement
+JavaScript warning: https://weather.com/module-service/assets/main.c06440cbd8842e3cf543.js, line 47: unreachable code after return statement
+JavaScript error: https://www.wunderground.com/history/monthly/th/mueang-chiang-mai/VTCC/date/2017-2 line 1 > injectedScript, line 2: ReferenceError: ReportingObserver is not defined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ovyIVDwIz7QGgfE_NzKJhN_1XsOLGoe01x4KTGhRCeE.js line 2 > eval line 1367 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ovyIVDwIz7QGgfE_NzKJhN_1XsOLGoe01x4KTGhRCeE.js line 2 > eval line 2934 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/actors/PictureInPictureChild.sys.mjs, line 373: TypeError: can't access dead object
+JavaScript warning: https://adbab0b9145d628fd9ef1b8c552b22eb.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html line 18 > injectedScript, line 20: Script terminated by timeout at:
+_0x1e57@https://adbab0b9145d628fd9ef1b8c552b22eb.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html line 18 > injectedScript:20:8775
+_0x2e8fdd@https://adbab0b9145d628fd9ef1b8c552b22eb.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html line 18 > injectedScript:20:24503
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=www.wunderground.com#{%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22_Yx95V9ONVMzVElBQjZxQmlGZXclMkJCREVOekV0WFZCWkFNYUNONEthOE5DMEwzZms2ZHlpd0s1eTlIakF1djBCVm1LQ3luTkpGSk1IZWpoQUk4S2Z6RUpwZFJGYzJwckphNzQ2cEY4UUpvcjJSJTJGSGc2aVowVUJvV2MyZkF4NkNUTnVVUjg1cFY0ZWZhU0xOSjFkU0EyZXFtS3dRJTNEJTNE%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22wunderground.com%22,%22topUrl%22:%22www.wunderground.com%22,%22version%22:159,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.7285320919660755%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=www.wunderground.com#{%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22_Yx95V9ONVMzVElBQjZxQmlGZXclMkJCREVOekV0WFZCWkFNYUNONEthOE5DMEwzZms2ZHlpd0s1eTlIakF1djBCVm1LQ3luTkpGSk1IZWpoQUk4S2Z6RUpwZFJGYzJwckphNzQ2cEY4UUpvcjJSJTJGSGc2aVowVUJvV2MyZkF4NkNUTnVVUjg1cFY0ZWZhU0xOSjFkU0EyZXFtS3dRJTNEJTNE%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22wunderground.com%22,%22topUrl%22:%22www.wunderground.com%22,%22version%22:159,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.7285320919660755%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=www.wunderground.com#{%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22_Yx95V9ONVMzVElBQjZxQmlGZXclMkJCREVOekV0WFZCWkFNYUNONEthOE5DMEwzZms2ZHlpd0s1eTlIakF1djBCVm1LQ3luTkpGSk1IZWpoQUk4S2Z6RUpwZFJGYzJwckphNzQ2cEY4UUpvcjJSJTJGSGc2aVowVUJvV2MyZkF4NkNUTnVVUjg1cFY0ZWZhU0xOSjFkU0EyZXFtS3dRJTNEJTNE%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22wunderground.com%22,%22topUrl%22:%22www.wunderground.com%22,%22version%22:159,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.7285320919660755%22}:13:3642
+
+JavaScript warning: https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=159423&us_privacy=1---, line 1: Script terminated by timeout at:
+q@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=159423&us_privacy=1---:1:9748
+J@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=159423&us_privacy=1---:1:14129
+x@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=159423&us_privacy=1---:1:10976
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://weather.com/module-service/assets/main.c06440cbd8842e3cf543.js, line 47: unreachable code after return statement
+JavaScript warning: https://weather.com/module-service/assets/main.c06440cbd8842e3cf543.js, line 47: unreachable code after return statement
+JavaScript error: https://www.wunderground.com/history/monthly/th/mueang-chiang-mai/VTCC/date/2017-3 line 1 > injectedScript, line 2: ReferenceError: ReportingObserver is not defined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ovyIVDwIz7QGgfE_NzKJhN_1XsOLGoe01x4KTGhRCeE.js line 2 > eval line 4921 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ovyIVDwIz7QGgfE_NzKJhN_1XsOLGoe01x4KTGhRCeE.js line 2 > eval line 191 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/actors/PictureInPictureChild.sys.mjs, line 373: TypeError: can't access dead object
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=www.wunderground.com#{%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22KxEHD19ONVMzVElBQjZxQmlGZXclMkJCREVOekVsejM3Y0lURnBsOU9PZFdWcW1lcTdscFRKRVBFMW1aYkhUTG1VSmw1M3BmcFJJMUJ2M2R2WG1yZmM2Z25tYVREYVVqMHpzQ0h1b0t1UVJDYmpBJTJCN1BkZG9lWGtWdFZBUE5YciUyRnNWSEl1QWVya0xEbHc5eko4ckFFcENtSWxXc3clM0QlM0Q%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22wunderground.com%22,%22topUrl%22:%22www.wunderground.com%22,%22version%22:159,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.3216886028791238%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=www.wunderground.com#{%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22KxEHD19ONVMzVElBQjZxQmlGZXclMkJCREVOekVsejM3Y0lURnBsOU9PZFdWcW1lcTdscFRKRVBFMW1aYkhUTG1VSmw1M3BmcFJJMUJ2M2R2WG1yZmM2Z25tYVREYVVqMHpzQ0h1b0t1UVJDYmpBJTJCN1BkZG9lWGtWdFZBUE5YciUyRnNWSEl1QWVya0xEbHc5eko4ckFFcENtSWxXc3clM0QlM0Q%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22wunderground.com%22,%22topUrl%22:%22www.wunderground.com%22,%22version%22:159,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.3216886028791238%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=www.wunderground.com#{%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22KxEHD19ONVMzVElBQjZxQmlGZXclMkJCREVOekVsejM3Y0lURnBsOU9PZFdWcW1lcTdscFRKRVBFMW1aYkhUTG1VSmw1M3BmcFJJMUJ2M2R2WG1yZmM2Z25tYVREYVVqMHpzQ0h1b0t1UVJDYmpBJTJCN1BkZG9lWGtWdFZBUE5YciUyRnNWSEl1QWVya0xEbHc5eko4ckFFcENtSWxXc3clM0QlM0Q%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22wunderground.com%22,%22topUrl%22:%22www.wunderground.com%22,%22version%22:159,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.3216886028791238%22}:13:3642
+
+JavaScript warning: https://weather.com/module-service/assets/main.c06440cbd8842e3cf543.js, line 47: unreachable code after return statement
+JavaScript warning: https://weather.com/module-service/assets/main.c06440cbd8842e3cf543.js, line 47: unreachable code after return statement
+JavaScript error: https://www.wunderground.com/history/monthly/th/mueang-chiang-mai/VTCC/date/2017-4 line 1 > injectedScript, line 2: ReferenceError: ReportingObserver is not defined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ovyIVDwIz7QGgfE_NzKJhN_1XsOLGoe01x4KTGhRCeE.js line 2 > eval line 1039 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ovyIVDwIz7QGgfE_NzKJhN_1XsOLGoe01x4KTGhRCeE.js line 2 > eval line 1395 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/actors/PictureInPictureChild.sys.mjs, line 373: TypeError: can't access dead object
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=www.wunderground.com#{%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%224kL25V9ONVMzVElBQjZxQmlGZXclMkJCREVOekZRYmxoUE05cWpFc1pWZk5zeHFXS1k5OW1ubjlJTGxrNWxLWmF4WXdCdFBRZWh6c25GTXJsV0VNQ0h3T2FLN054RlJtRSUyRlltJTJGMGdYSWJKNG04WjZrU2lrWFoyS2V4cXBkM044ZmhSaHJpbTZtMDRYS2kyUCUyQlNUYVlzNTZ4RFBnZyUzRCUzRA%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22wunderground.com%22,%22topUrl%22:%22www.wunderground.com%22,%22version%22:159,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.8555421961447193%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=www.wunderground.com#{%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%224kL25V9ONVMzVElBQjZxQmlGZXclMkJCREVOekZRYmxoUE05cWpFc1pWZk5zeHFXS1k5OW1ubjlJTGxrNWxLWmF4WXdCdFBRZWh6c25GTXJsV0VNQ0h3T2FLN054RlJtRSUyRlltJTJGMGdYSWJKNG04WjZrU2lrWFoyS2V4cXBkM044ZmhSaHJpbTZtMDRYS2kyUCUyQlNUYVlzNTZ4RFBnZyUzRCUzRA%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22wunderground.com%22,%22topUrl%22:%22www.wunderground.com%22,%22version%22:159,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.8555421961447193%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=www.wunderground.com#{%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%224kL25V9ONVMzVElBQjZxQmlGZXclMkJCREVOekZRYmxoUE05cWpFc1pWZk5zeHFXS1k5OW1ubjlJTGxrNWxLWmF4WXdCdFBRZWh6c25GTXJsV0VNQ0h3T2FLN054RlJtRSUyRlltJTJGMGdYSWJKNG04WjZrU2lrWFoyS2V4cXBkM044ZmhSaHJpbTZtMDRYS2kyUCUyQlNUYVlzNTZ4RFBnZyUzRCUzRA%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22wunderground.com%22,%22topUrl%22:%22www.wunderground.com%22,%22version%22:159,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.8555421961447193%22}:13:3642
+
+JavaScript error: https://www.wunderground.com/history/monthly/th/mueang-chiang-mai/VTCC/date/2017-5 line 1 > injectedScript, line 2: ReferenceError: ReportingObserver is not defined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ovyIVDwIz7QGgfE_NzKJhN_1XsOLGoe01x4KTGhRCeE.js line 2 > eval line 2811 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
