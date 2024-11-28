@@ -1,0 +1,71 @@
+1732027687747	geckodriver	INFO	Listening on 127.0.0.1:38361
+1732027688254	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35413" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileblWRQc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to open renderDeviceFD.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1732027690171	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1732027690398	Marionette	INFO	Listening on port 33903
+WebDriver BiDi listening on ws://127.0.0.1:35413
+Read port: 33903
+1732027690602	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/map-markers.461b24cb51f7569aeb6e.js, line 2: WebGL context was lost.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0_-rqYzUQcPlm9jZVsqfg3IUXICzjiZvpJ6yBTaJa9I.js line 2 > eval line 91 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-L36G7LYKDK&cx=c&_slc=1, line 574: Script terminated by timeout at:
+h.Uh@https://www.googletagmanager.com/gtag/js?id=G-L36G7LYKDK&cx=c&_slc=1:574:30
+get@https://www.googletagmanager.com/gtag/js?id=G-L36G7LYKDK&cx=c&_slc=1:572:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-L36G7LYKDK&cx=c&_slc=1:572:87
+h.wl/c/<@https://www.googletagmanager.com/gtag/js?id=G-L36G7LYKDK&cx=c&_slc=1:572:410
+
+1732027712733	Marionette	INFO	Stopped listening on port 33903
+1732241636593	geckodriver	INFO	Listening on 127.0.0.1:60087
+1732241637092	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50621" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileDToUhb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to open renderDeviceFD.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1732241639111	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1732241639369	Marionette	INFO	Listening on port 37077
+WebDriver BiDi listening on ws://127.0.0.1:50621
+Read port: 37077
+1732241639474	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/map-markers.461b24cb51f7569aeb6e.js, line 2: WebGL context was lost.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/AZhFfPohrWQYsOIoYjrS8f8JOGLIZZSdCGNFz-TUQ28.js line 2 > eval line 6846 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1732241669131	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1732242398151	geckodriver	INFO	Listening on 127.0.0.1:36431
+1732242398669	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50753" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilehcawLr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to open renderDeviceFD.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1732242400603	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1732242400853	Marionette	INFO	Listening on port 41697
+WebDriver BiDi listening on ws://127.0.0.1:50753
+Read port: 41697
+1732242401024	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/map-markers.461b24cb51f7569aeb6e.js, line 2: WebGL context was lost.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/AZhFfPohrWQYsOIoYjrS8f8JOGLIZZSdCGNFz-TUQ28.js line 2 > eval line 3233 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1732242430617	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1732244957606	Marionette	INFO	Stopped listening on port 41697
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-L36G7LYKDK&cx=c&_slc=1, line 584: Script terminated by timeout at:
+h.Uh@https://www.googletagmanager.com/gtag/js?id=G-L36G7LYKDK&cx=c&_slc=1:584:30
+get@https://www.googletagmanager.com/gtag/js?id=G-L36G7LYKDK&cx=c&_slc=1:582:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-L36G7LYKDK&cx=c&_slc=1:582:87
+h.xl/c/<@https://www.googletagmanager.com/gtag/js?id=G-L36G7LYKDK&cx=c&_slc=1:582:410
+
+1732276676261	Marionette	INFO	Stopped listening on port 37077
