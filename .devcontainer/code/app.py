@@ -34,35 +34,6 @@ def display_page(pathname):
         return prediction_layout
     else:
         return home_layout
-    
-# # Prediction callback
-# @app.callback(
-#     [Output("aqi-output", "children"), Output("aqi-badge", "children"), Output("aqi-badge", "color")],
-#     [Input("predict-button", "n_clicks")],
-#     [State("pm10", "value"), State("no2", "value"), State("so2", "value"), State("co", "value"), State("o3", "value")]
-# )
-# def update_prediction(n_clicks, pm10, no2, so2, co, o3):
-#     if n_clicks > 0 and all([pm10, no2, so2, co, o3]):
-#         # Predict AQI
-#         aqi = predict_aqi(pm10, no2, so2, co, o3)
-        
-#         # Determine AQI level and color
-#         if aqi <= 50:
-#             level = "Good"
-#             color = "success"
-#         elif aqi <= 100:
-#             level = "Moderate"
-#             color = "warning"
-#         elif aqi <= 150:
-#             level = "Bad"
-#             color = "danger"
-#         else:
-#             level = "Extreme"
-#             color = "dark"
-        
-#         return f"{aqi}", level, color
-#     return "", "", ""
-
 
 # Run the app
 if __name__ == '__main__':
