@@ -275,7 +275,7 @@ def update_aqi(n_clicks, pm25, pm10, co, o3, no2, so2, temperature, rainfall, tr
         # Add text annotation in the center
     fig.add_annotation(
         text=aqi_category,  # Display the AQI category
-        x=0.5, y=0.5,  # Center position of the gauge
+        x=0.5, y=0.2,  # Center position of the gauge
         xref="paper", yref="paper",
         showarrow=False,
         font=dict(size=20, color="black")
