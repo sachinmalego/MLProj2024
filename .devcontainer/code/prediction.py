@@ -109,7 +109,6 @@ prediction_layout = html.Div(
                                                     placeholder="Industry",
                                                     className="mb-2",
                                                     style={"width": "100%"},
-                                                    value=1,
                                                     required=True,
                                                     min=1,
                                                 ),
@@ -178,20 +177,22 @@ def predict_aqi(pm25, pm10, no2, so2, co, o3, temperature, rainfall, traffic, in
         Output("aqi-gauge", "figure"),  # Update the gauge chart
     ],
     [
-        Input("pm25", "value"),
-        Input("pm10", "value"),
-        Input("no2", "value"),
-        Input("so2", "value"),
-        Input("co", "value"),
-        Input("o3", "value"),
-        Input("temperature", "value"),
-        Input("rainfall", "value"),
-        Input("traffic", "value"),
-        Input("industry", "value"),
-        Input("predict-button", "n_clicks"),  # Trigger prediction when button is clicked
+        Input("predict-button", "n_clicks"),  # Trigger prediction only on button click
+    ],
+    [
+        State("pm25", "value"),
+        State("pm10", "value"),
+        State("co", "value"),
+        State("o3", "value"),
+        State("no2", "value"),
+        State("so2", "value"),
+        State("temperature", "value"),
+        State("rainfall", "value"),
+        State("traffic", "value"),
+        State("industry", "value"),
     ],
 )
-def update_aqi(pm25, pm10, no2, so2, co, o3, temperature, rainfall, traffic, industry, n_clicks):
+def update_aqi(n_clicks, pm25, pm10, co, o3, no2, so2, temperature, rainfall, traffic, industry):
     # Check if the predict button was clicked
     if n_clicks is None:
         return {"display": "none"}, {}
@@ -214,6 +215,17 @@ def update_aqi(pm25, pm10, no2, so2, co, o3, temperature, rainfall, traffic, ind
     except TypeError:
         # Return empty result if inputs are invalid
         return {"display": "none"}, {}
+    
+    print("pm25", pm25)
+    print("pm10", pm10)
+    print("no2", no2)
+    print("so2", so2)
+    print("co", co)
+    print("o3", o3)
+    print("temperature", temperature)
+    print("rainfall", rainfall)
+    print("traffic", traffic)
+    print("industry", industry)
 
     # Call the prediction function
     aqi = predict_aqi(pm25, pm10, no2, so2, co, o3, temperature, rainfall, traffic, industry)
