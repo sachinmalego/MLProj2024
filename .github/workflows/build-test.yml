@@ -22,7 +22,7 @@ jobs:
 
       # Build the Docker image for testing
       - name: Build Docker image for testing
-        run: docker build -t aqi_prediction -f code/Dockerfile code
+        run: docker build -t aqi_prediction -f .devcontainer/code/Dockerfile code
 
       # Run tests inside the Docker container
       - name: Run tests in Docker
