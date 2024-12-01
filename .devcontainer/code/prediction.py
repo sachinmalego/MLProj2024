@@ -4,7 +4,7 @@ import plotly.graph_objects as go
 import pickle
 
 # import xgb model
-model = pickle.load(open("XGBoost_classifier.pkl", "rb"))
+model = pickle.load(open("Random Forest_classifier.pkl", "rb"))
 
 #import scaler
 scaler = pickle.load(open("scaler.pkl", "rb"))
@@ -167,7 +167,7 @@ def predict_aqi(pm25, pm10, no2, so2, co, o3, temperature, rainfall, traffic, in
 
     print("upper aqi", model.predict(features))
 
-    # aqi possible values: 0, 1, 2, 3, 4, 5
+    # aqi possible values: 0, 1, 2, 3, 4
     return round(aqi)
 
 # Define the callback function
@@ -233,22 +233,21 @@ def update_aqi(n_clicks, pm25, pm10, co, o3, no2, so2, temperature, rainfall, tr
     print("aqi", aqi)
 
     # Define custom tick labels
-    tick_values = [0, 1, 2, 3, 4, 5, 6]  # Normalized scale
-    tick_texts = ["0", "50", "100", "150", "200", "250", "300"]  # Custom labels
+    tick_values = [0, 1, 2, 3, 4, 5]  # Normalized scale
+    tick_texts = ["0", "25", "50", "100", "200", "200+"]  # Custom labels
 
     # Define AQI category based on value
-    if aqi < 1:
+    if aqi == 0:
+        aqi_category = "Very Good"
+    elif aqi == 1:
         aqi_category = "Good"
-    elif aqi < 2:
+    elif aqi == 2:
         aqi_category = "Moderate"
-    elif aqi < 3:
-        aqi_category = "Unhealthy (Sensitive)"
-    elif aqi < 4:
-        aqi_category = "Unhealthy"
-    elif aqi < 5:
-        aqi_category = "Very Unhealthy"
-    else:
-        aqi_category = "Hazardous"
+    elif aqi == 3:
+        aqi_category = "Beginning to have health effects"
+    elif aqi == 4:
+        aqi_category = "Impact on health"
+
 
     # Create the gauge chart for AQI
     fig = go.Figure(go.Indicator(
@@ -257,19 +256,18 @@ def update_aqi(n_clicks, pm25, pm10, co, o3, no2, so2, temperature, rainfall, tr
         title={"text": "Air Quality Index (AQI)"},
         gauge={
             "axis": {
-                "range": [None, 6],
+                "range": [None, 5],
                 "tickvals": tick_values,
                 "ticktext": tick_texts,
                 "tickwidth": 1,
             },
             "bar": {"color": "black"},
             "steps": [
-                {"range": [0, 1], "color": "green"},
-                {"range": [1, 2], "color": "yellow"},
-                {"range": [2, 3], "color": "orange"},
-                {"range": [3, 4], "color": "red"},
-                {"range": [4, 5], "color": "purple"},
-                {"range": [5, 6], "color": "maroon"},
+                {"range": [0, 1], "color": "blue"},
+                {"range": [1, 2], "color": "green"},
+                {"range": [2, 3], "color": "yellow"},
+                {"range": [3, 4], "color": "orange"},
+                {"range": [4, 5], "color": "red"},
             ],
         },
     ))
