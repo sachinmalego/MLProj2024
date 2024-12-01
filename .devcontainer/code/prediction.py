@@ -1,6 +1,7 @@
 from dash import html, dcc, Input, Output, State, callback
 import dash_bootstrap_components as dbc
 import plotly.graph_objects as go
+import numpy as np
 import pickle
 
 # import xgb model
@@ -161,11 +162,13 @@ prediction_layout = html.Div(
 def predict_aqi(pm25, pm10, no2, so2, co, o3, temperature, rainfall, traffic, industry):
     # Scale the input features
     features = scaler.transform([[pm25, pm10, o3, no2, so2, co, temperature, rainfall, industry]])
-    
+
+    # final_feature = np.hstack([features, [[traffic]]])
+
     # Predict AQI using the model
     aqi = model.predict(features)[0]
 
-    print("upper aqi", model.predict(features))
+    # print("upper aqi", model.predict(features))
 
     # aqi possible values: 0, 1, 2, 3, 4
     return round(aqi)

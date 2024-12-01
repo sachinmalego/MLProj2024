@@ -1,0 +1,14 @@
+version: '3.1'
+
+services:
+  prediction:
+    command: python3 app.py
+    image: bidhan01/ml-aqi:a1
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - HOST=0.0.0.0
+      - PORT=80
+    ports:
+      - 4000:80
